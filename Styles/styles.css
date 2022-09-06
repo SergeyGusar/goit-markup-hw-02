@@ -114,14 +114,18 @@ body{
 /* section h1 */
 
 h1{
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
-    background:var(--primary-color);
+    background: #2F303A;
     color: var(--text-color);
-    /* text-align: center; */
+    text-align: center;
+    
+width: 1000px;
+height: 600px;
+left: 0px;
+top: 80px;
 }
 
 /* advantages-переваги */
@@ -152,12 +156,22 @@ p{
 h2.we-do{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.66;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     /* text-align: center; */
     color: var(--secondary-color);
 }
 /* Наша Команда */
+
+h2.our-team{
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.16;
+     /* text-align: center; */
+     letter-spacing: 0.03em;
+    color: var(--secondary-color);
+} 
+
 .team .team-post{
     color: var(--primary-color);
     font-weight: 400;
@@ -207,6 +221,19 @@ background:var(--footer-color);
     color: var(--accent-color);
 }
 
+.address-list .address-item{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+  color: #ffffff;
+   text-decoration:none;
+   font-style: normal;
+}
+.address-title .address-item:hover{
+    color: var(--accent-color);
+}
+
 .address-title .mail-item,
 .address-title .tel-item,
 .address-link{
@@ -226,10 +253,18 @@ header{
 }
 
 body{
-    background: #F5F5F5;
+    background: #Ffffff;
     color: var(--secondary-color);
 }
 /* portfolio button */
+
+.buttons-item .button{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
 
 .buttons-list .button{
     color:var(--secondary-color) ;
@@ -246,7 +281,6 @@ body{
 /* Portfolio Project */
 
 h2 .portfolio-sample{
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.25;
@@ -255,7 +289,6 @@ h2 .portfolio-sample{
 }
 
 p .portfolio-info{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
