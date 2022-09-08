@@ -19,12 +19,12 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header-page">
-      <nav>
+      <nav class="nav-title">
         <a href="logo" class="logo-header">
           <span class="logo-web">Web</span>Studio</a
         >
         <ul class="nav-link">
-          <li>
+          <li class="nav-link-list">
             <a href="./index.html" class="link current">Студія</a>
           </li>
           <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
@@ -32,45 +32,47 @@
         </ul>
       </nav>
       <ul class="contacts-link">
-        <li>
+        <li class="contacts-list">
           <a href="info@devstudio.com" class="link">info@devstudio.com</a>
         </li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <li class="tel-list">
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
       <div>
         <section class="section-button">
-          <h1>Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="button pointer" type="button">Замовити послугу</button>
         </section>
       </div>
-      <section>
+      <section class="section-skills">
         <!-- Переваги -->
-        <ul class="advantages">
-          <li>
-            <h3 class="advantages-text">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="text">
+        <ul class="skills">
+          <li class="skills-list">
+            <h3 class="skills-item">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="skills-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
-            <h3 class="advantages-text">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="text">
+          <li class="skills-list">
+            <h3 class="skills-item">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="skills-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
-            <h3 class="advantages-text">ПЛАНУВАННЯ</h3>
-            <p class="text">
+          <li class="skills-list">
+            <h3 class="skills-item">ПЛАНУВАННЯ</h3>
+            <p class="skills-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
-            <h3 class="advantages-text">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="text">
+          <li class="skills-list">
+            <h3 class="skills-item">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="skills-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -78,10 +80,10 @@
         </ul>
       </section>
       <!--Чим займаємось  -->
-      <section>
-        <h2 class="we-do">Чим ми займаємося</h2>
-        <ul>
-          <li>
+      <section class="section-we-do">
+        <h2 class="we-do-title">Чим ми займаємося</h2>
+        <ul class="we-do-list">
+          <li class="we-do-item">
             <img
               class="img-block"
               src="./studioimg/box1.jpg"
@@ -89,7 +91,7 @@
               width="370"
             />
           </li>
-          <li>
+          <li class="we-do-item">
             <img
               class="img-block"
               src="./studioimg/box2.jpg"
@@ -97,7 +99,7 @@
               width="370"
             />
           </li>
-          <li>
+          <li class="we-do-item">
             <img
               class="img-block"
               src="./studioimg/box3.jpg"
@@ -108,28 +110,28 @@
         </ul>
       </section>
       <!-- Наша команда -->
-      <section>
-        <h2 class="our-team">Наша команда</h2>
-        <ul class="team">
-          <li>
+      <section class="section-team">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list">
+          <li class="team-item">
             <img src="./studioimg/img1.jpg" alt="Ігор Дем'яненко" width="270" />
             <h3 class="team-people">Ігор Дем'яненко</h3>
-            <p class="team-post">Product Designer</p>
+            <p class="teams-text">Product Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./studioimg/img2.jpg" alt="Ольга Рєпіна" width="270" />
             <h3 class="team-people">Ольга Рєпіна</h3>
-            <p class="team-post">Frontend Developer</p>
+            <p class="teams-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./studioimg/img3.jpg" alt="Микола Тарасов" width="270" />
             <h3 class="team-people">Микола Тарасов</h3>
-            <p class="team-post">Marketing</p>
+            <p class="teams-text">Marketing</p>
           </li>
-          <li>
+          <li class="team-item">
             <img src="./studioimg/img4.jpg" alt="Михайло Єрмаков" width="270" />
             <h3 class="team-people">Михайло Єрмаков</h3>
-            <p class="team-post">UI Designer</p>
+            <p class="teams-text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -139,7 +141,7 @@
       <a class="logo-footer" href="logo"
         ><span class="logo-web">Web</span>Studio</a
       >
-      <address>
+      <address class="address">
         <ul class="address-title">
           <li class="address-list">
             <a
@@ -151,7 +153,7 @@
               м.Київ,пр-т Лесі Українки,26</a
             >
           </li>
-          <li>
+          <li class="mail-list">
             <a
               href="mailto:info@devstudio.com"
               class="mail-item"
@@ -160,7 +162,7 @@
               info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="tel-list">
             <a href="tel:+380961111111" class="tel-item">+38 096 111 11 11</a>
           </li>
         </ul>
